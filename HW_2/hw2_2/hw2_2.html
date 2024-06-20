@@ -2,31 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+        <title>Cards</title>
     <style>
         .cards_main{
-            background-color: darkgray;
+            background-color: lightgray;
             width: 130px;
-            height: 100px;
+            height: 110px;
             margin: 10px;
-            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
-
+        .flex{
+         display: flex;
+        }
+        .size-black{
+            font-size: 90px;
+        }
+        .size-red{
+            color: darkred;
+            font-size: 90px;
+        }
     </style>
 </head>
 <body>
 <h1>Player 1:</h1>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
+<div class="flex">
+        <div class="cards_main">
+            <p class="size-black"> 2♣</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-red">9♥</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-red">6♥</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-red">A♦</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-black"> Q♠</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-black"> J♣</p>
+        </div>
+</div>
 
 <h1>Player 2:</h1>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
-    <div class="cards_main"> </div>
+<div class="flex">
+        <div class="cards_main">
+            <p class="size-red">3♥</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-black"> A♣</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-black"> 10♣</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-red">K♦</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-black"> 8♠</p>
+        </div>
+        <div class="cards_main">
+            <p class="size-red">3♥</p>
+        </div>
+</div>
 </body>
 </html>

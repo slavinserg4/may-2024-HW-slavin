@@ -21,6 +21,7 @@
             flex-wrap: wrap;
             padding: 0 230px;
             gap: 25px;
+
         }
         .all-cards{
             display: flex;
@@ -31,6 +32,8 @@
             border-radius: 4px;
             box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
             transition: 500ms;
+            border: solid;
+            flex-direction: column;
         }
         .all-cards:hover{
             height: 27vh;
@@ -39,7 +42,8 @@
         }
         div p{
             font-size: 30px;
-
+            color: white;
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -47,37 +51,46 @@
     <div class="text-title"> <h1> HTML Colors</h1></div>
 
     <div class="color-cards">
-        <div style="background-color:black; color: white" class="all-cards">
+        <div style="background-color:black;" class="all-cards ">
             <p>Black</p>
+            <p>#000000</p>
         </div>
-        <div style="background-color:red; color: white;" class="all-cards">
+        <div style="background-color:red;" class="all-cards ">
             <p>Red</p>
+            <p>#FF0000</p>
         </div>
-        <div style="background-color:green; color: white;" class="all-cards">
+        <div style="background-color:green; " class="all-cards ">
             <p>Green</p>
+            <p>#00FF00</p>
         </div>
-        <div style="background-color:blue; color: white;" class="all-cards">
+        <div style="background-color:blue; " class="all-cards ">
             <p>Blue</p>
+            <p>#0000FF</p>
         </div>
-        <div style="background-color:fuchsia; color: white;" class="all-cards">
+        <div style="background-color:fuchsia; " class="all-cards ">
             <p>Fuchsia</p>
+            <p>#FF00FF</p>
         </div>
-        <div style="background-color:white; color: black" class="all-cards">
-            <p>White</p>
+        <div style="background-color:white; " class="all-cards ">
+            <p style="color: black">White</p>
+            <p style="color: black" >#FFFFFF</p>
         </div>
-        <div style="background-color:yellow; color: black" class="all-cards">
-            <p>Yellow</p>
+        <div style="background-color:yellow; " class="all-cards ">
+            <p style="color: black">Yellow</p>
+            <p style="color: black">#FFFF00</p>
         </div>
-        <div style="background-color:purple; color: white;" class="all-cards">
+        <div style="background-color:purple; ;" class="all-cards card-color-white">
             <p>Purple</p>
+            <p>#800080</p>
         </div>
-        <div style="background-color:maroon; color: white;" class="all-cards">
+        <div style="background-color:maroon; " class="all-cards card-color-white">
             <p>Maroon</p>
+            <p>#800000</p>
         </div>
-        <div style="background-color:olive; color: white;" class="all-cards">
+        <div style="background-color:olive; " class="all-cards card-color-white">
             <p>Olive</p>
+            <p>#808000</p>
         </div>
     </div>
-
 </body>
 </html>

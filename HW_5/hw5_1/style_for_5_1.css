@@ -87,7 +87,6 @@ footer{
     justify-content: center;
 }
 section footer p{
-
     margin: 0 ;
 }
 section div{
@@ -97,5 +96,13 @@ section div{
     flex-direction: column;
     padding: 100px;
 }
+.button{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 15px;
 
+}
 

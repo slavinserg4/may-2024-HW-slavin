@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background: #8D8484;
+            height: 20vh;
+        }
+        main{
+            height: 60vh;
+            width: 70vw;
+        }
+         main section{
+            height: 20vh;
+        }
+        aside{
+            height: 60vh;
+            width: 30vw;
+        }
+        aside section{
+            height: 30vh;
+        }
+        .flex{
+            display: flex;
+        }
+
+        footer{
+            background: #8D8484;
+            height: 20vh;
+        }
+        p{
+            text-align: center;
+            padding: 8vh;
+            font-size: 25px;
+        }
+        .white{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header> <p>Header</p></header>
+    <div class="flex">
+        <main>
+            <section style="background: #776969;" class="white"><p>Content - 1</p></section>
+            <section style="background: #643030;" class="white"><p>Content - 2</p></section>
+            <section style="background: #441818;" class="white"><p>Content - 3</p></section>
+        </main>
+        <aside>
+            <section style="background: #937575;" class="white"><p style="padding: 13vh;">spam -1</p></section>
+            <section style="background: #644C4C;" class="white"><p style="padding: 13vh;">spam -2</p></section>
+        </aside>
+    </div>
+
+    <footer><p>Footer</p></footer>
+</body>
+</html>

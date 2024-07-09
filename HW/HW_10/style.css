@@ -1,0 +1,21 @@
+*{
+    list-style-type: none;
+}
+.first-task>ul>li:nth-child(even){
+    color: pink;
+}
+.second-task>ul>li:nth-child(odd){
+    font-size: 22px;
+}
+.third-task>ul>li:nth-child(2n+4)::after
+{
+    color: red;
+    content: "!";
+}
+.fourth-task>ul>li:last-child{
+    color: violet;
+}
+.fifth-task>ul>li::first-letter{
+    font-size: 30px;
+    color: red;
+}

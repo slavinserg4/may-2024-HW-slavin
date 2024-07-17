@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+        }
+        .card{
+            width: 321px;
+            height: 491px;
+            flex-shrink: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 180px;
+            color: #000;
+            font-family: Inter, sans-serif;
+            font-weight: 400;
+            position: relative;
+        }
+        .card h2{
+            font-size: 40px;
+        }
+        .card p{
+            font-size: 20px;
+        }
+        .black{
+            border: 4px solid #554C4C;
+        }
+        .green{
+            border: 4px solid #65856E;
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            border: black 4px solid;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: -55px;
+            background-color: white;
+        }
+        .circle img{
+            width: 60px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card black">
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisiccvbcvbing elit</p>
+        <div class="circle">
+            <img src="home.svg" alt="home">
+        </div>
+    </div>
+    <div class="card green">
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicingvb elit</p>
+        <div class="circle" style="border: #65856E 4px solid;">
+            <img src="settings.svg" alt="home">
+        </div>
+    </div>
+    <div class="card black">
+        <h2>Lorem</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <div class="circle">
+            <img src="cancel.svg" alt="home">
+        </div>
+    </div>
+</body>
+</html>

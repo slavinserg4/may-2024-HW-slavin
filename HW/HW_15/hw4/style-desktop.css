@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+main div{
+    width: 558px;
+    height: 100px;
+}
+div h2{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+}
+div p{
+    color: rgba(60, 60, 67, 0.85);
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}

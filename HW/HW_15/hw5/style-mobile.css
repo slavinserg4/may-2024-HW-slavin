@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+    main{
+        flex-direction: column;
+        gap: 24px;
+    }
+   section{
+       font-size: 14px;
+   }
+   section div h3:nth-child(1){
+       width: 143px;
+       height: 36px;
+    }
+   section h1{
+       margin-top: 0;
+       font-size: 32px;
+       width: 343px;
+   }
+   section ul{
+       margin-top: 0;
+       font-size: 18px;
+       width: 300px;
+   }
+   section button{
+       margin-top: 0;
+       font-size: 16px;
+   }
+   iframe{
+       width: 370px;
+       height: 192px;
+   }
+}

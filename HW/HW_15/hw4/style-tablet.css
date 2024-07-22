@@ -1,0 +1,8 @@
+@media screen and (max-width: 1024px){
+    main{
+        gap: 150px;
+    }
+    main div{
+        width: 348px;
+    }
+}

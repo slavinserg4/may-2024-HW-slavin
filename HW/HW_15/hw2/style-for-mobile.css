@@ -1,0 +1,47 @@
+@media screen and (min-width: 0) and (max-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        background-color: grey;
+        height: 20vh;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        height: 40vh;
+        width: 100vw;
+        background-color: #807d7d;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        height: 20vh;
+        width: 33.3vw;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    aside{
+        height: 20vh;
+        width: 100vw;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkgrey;
+    }
+    .second{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}

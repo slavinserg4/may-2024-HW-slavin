@@ -1,0 +1,37 @@
+@media screen and (min-width: 0) and (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+        height: 20vh;
+        background-color: grey;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        background-color: lightgrey;
+        width: 100vw;
+    }
+    aside{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        width: 100vw;
+        background-color: darkgrey;
+    }
+    div{
+        display: block;
+
+    }
+}

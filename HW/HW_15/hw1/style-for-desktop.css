@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: grey;
+    height: 30vh;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+}
+main{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+    background-color: lightgrey;
+}
+aside{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 30vw;
+    background-color: darkgrey;
+}
+
+
+

@@ -1,0 +1,8 @@
+@media screen and (max-width: 480px){
+    main{
+        flex-direction: column;
+    }
+    main div{
+        width: 343px;
+    }
+}

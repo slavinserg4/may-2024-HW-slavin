@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px){
+    body{
+        display: grid;
+        grid-template-rows: 20vh 60vh 20vh;
+        grid-template-columns: 100vw;
+        grid-template-areas:
+        'header'
+        'main'
+        'section';
+    }
+
+}

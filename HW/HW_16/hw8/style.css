@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: repeat(3, 33.33vh);
+    grid-template-areas:
+    'header header header header'
+    'main main main aside'
+    'sectionA sectionB sectionC aside';
+
+}
+header{
+    grid-area: header;
+    background-color: grey;
+}
+main{
+    grid-area: main;
+    background-color: dimgrey;
+}
+aside{
+    grid-area: aside;
+    background-color: darkgrey;
+}
+.sectionA{
+    grid-area: sectionA;
+    background-color: lightgrey;
+}
+.sectionB{
+    grid-area: sectionB;
+    background-color: darkslategrey;
+}
+.sectionC{
+    grid-area: sectionC;
+    background-color: lightslategrey;
+}

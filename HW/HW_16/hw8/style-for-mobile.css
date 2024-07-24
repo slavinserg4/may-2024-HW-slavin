@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(3, 33.33vw);
+        grid-template-rows: 20vh 50vh 15vh 15vh;
+        grid-template-areas:
+    'header header header '
+    'main main main '
+    'sectionA sectionB sectionC'
+    'aside aside aside';
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            grid-template-rows: repeat(5, 20vh);
+            grid-template-columns: 70vw 30vw;
+            grid-template-areas:
+            'header header'
+            'contentfirst aside'
+            'contentsecond aside'
+            'contentthird aside'
+            'footer footer';
+
+        }
+        header{
+            grid-area: header;
+            background: rgba(141, 132, 132, 1);
+        }
+        .content-first{
+            grid-area: contentfirst;
+            background: rgba(119, 105, 105, 1);
+        }
+        .content-second{
+            background: rgba(100, 48, 48, 1);
+            grid-area: contentsecond;
+        }
+        .content-third{
+            grid-area: contentthird;
+            background: rgba(68, 24, 24, 1);
+        }
+        aside{
+            grid-area: aside;
+            background: rgba(147, 117, 117, 1);
+        }
+        footer{
+            grid-area: footer;
+            background: rgba(189, 189, 189, 1);
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <section class="content-first"></section>
+    <section class="content-second"></section>
+    <section class="content-third"></section>
+    <aside>
+        <div style="background: rgba(147, 117, 117, 1); height: 50%"></div>
+        <div style="background: rgba(100, 76, 76, 1); height: 50%"></div>
+    </aside>
+    <footer></footer>
+</body>
+</html>

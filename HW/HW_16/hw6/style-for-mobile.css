@@ -1,0 +1,32 @@
+@media screen and (min-width: 0) and (max-width: 480px) {
+    body{
+        display: grid;
+        grid-template-rows: repeat(5, 20vh);
+        grid-template-columns: 100vw;
+        grid-template-areas:
+        'header'
+        'main'
+        'section'
+        'aside'
+        'footer';
+    }
+    header{
+        background: rgba(217, 217, 217, 1);
+    }
+    main{
+        background: #A4A4A4;
+    }
+    section{
+        background: #C8C5C5;
+    }
+    aside{
+        background: #9F9B9B;
+    }
+    footer{
+        background: #D9D9D9;
+    }
+
+
+
+
+}

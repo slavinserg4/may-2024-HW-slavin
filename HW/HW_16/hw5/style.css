@@ -1,0 +1,44 @@
+@media screen and (min-width: 481px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: grid;
+        grid-template-rows: 15vh 70vh 15vh;
+        grid-template-columns: repeat(5,20vw);
+        grid-template-areas:
+          'header header header header header'
+          'first second third fourth fifth'
+          'footer footer footer footer footer';
+    }
+    header{
+        grid-area: header;
+        background: rgba(217, 217, 217, 1);
+    }
+    .first{
+        grid-area: first;
+        background: rgba(164, 164, 164, 1);
+    }
+    .second{
+        grid-area: second;
+        background: rgba(202, 199, 199, 1);
+    }
+    .third{
+        grid-area: third;
+        background: rgba(164, 164, 164, 1);
+    }
+    .fourth{
+        grid-area: fourth;
+        background: rgba(202, 199, 199, 1);
+    }
+    .fifth{
+        grid-area: fifth;
+        background: rgba(164, 164, 164, 1);
+    }
+    footer{
+        grid-area: footer;
+        background: rgba(217, 217, 217, 1);
+    }
+}

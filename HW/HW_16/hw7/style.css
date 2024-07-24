@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: 30vh 70vh;
+    grid-template-columns: 70vw 30vw;
+    grid-template-areas:
+    'header header'
+    'main section';
+}
+header{
+    grid-area: header;
+    background-color: grey;
+}
+main{
+    grid-area: main;
+    background-color: darkgrey;
+}
+section{
+    grid-area: section;
+    background-color: dimgrey;
+}
+
+
+
